@@ -14,8 +14,9 @@ def main():
                 if state == 0:
                     print(time_utils.now())
                     shoot.shoot()
-                    if local.tm_min % 15 == 0:
-                        make_gif.main()
+                    # render gif
+                    # if local.tm_min % 15 == 0:
+                    #     make_gif.main()
                     state = 1
             else:
                 state = 0
