@@ -57,3 +57,15 @@ DEBUG:requests.packages.urllib3.connectionpool:"GET /nph-jpeg.cgi?0&148433343611
 2017-01-15 02:05:00,008 Shooting
 2017-01-15 02:05:00,010 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
 2017-01-15 02:05:01,821 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 116706
+2017-01-15 02:06:00,007 Shooting
+2017-01-15 02:06:00,009 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 02:06:03,362 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117721
+2017-01-15 02:07:00,004 Shooting
+2017-01-15 02:07:00,006 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 02:07:01,427 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 116958
+2017-01-15 02:08:00,003 Shooting
+2017-01-15 02:08:00,005 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 02:08:01,531 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 116702
+2017-01-15 02:09:00,008 Shooting
+2017-01-15 02:09:00,010 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 02:09:00,824 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117087
