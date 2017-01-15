@@ -1,0 +1,29 @@
+INFO:root:Started.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+DEBUG:requests.packages.urllib3.connectionpool:"GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117406
+2017-01-15 01:49:39,295 Started.
+2017-01-15 01:50:00,011 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 01:50:00,449 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117336
+2017-01-15 01:50:28,285 Started.
+2017-01-15 01:50:36,583 Started.
+2017-01-15 01:50:36,829 Stopped
+2017-01-15 01:50:37,893 Started.
+2017-01-15 01:50:38,099 Stopped
+2017-01-15 01:50:38,602 Started.
+2017-01-15 01:50:38,741 Stopped
+2017-01-15 01:50:39,321 Started.
+2017-01-15 01:51:00,006 Shooting
+2017-01-15 01:51:00,014 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 01:51:00,559 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117261
+2017-01-15 01:52:00,007 Shooting
+2017-01-15 01:52:00,009 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 01:52:00,670 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117701
+2017-01-15 01:53:00,008 Shooting
+2017-01-15 01:53:00,010 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 01:53:02,850 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 116893
+2017-01-15 01:54:00,008 Shooting
+2017-01-15 01:54:00,009 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 01:54:00,803 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117544
+2017-01-15 01:55:00,016 Shooting
+2017-01-15 01:55:00,018 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 01:55:01,630 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117751
