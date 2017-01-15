@@ -27,3 +27,8 @@ DEBUG:requests.packages.urllib3.connectionpool:"GET /nph-jpeg.cgi?0&148433343611
 2017-01-15 01:55:00,016 Shooting
 2017-01-15 01:55:00,018 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
 2017-01-15 01:55:01,630 "GET /nph-jpeg.cgi?0&1484333436119382 HTTP/1.1" 200 117751
+2017-01-15 01:56:00,008 Shooting
+2017-01-15 01:56:00,013 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
+2017-01-15 01:56:25,037 HTTPConnectionPool(host='engineeringwebcam.calbaptist.edu', port=80): Max retries exceeded with url: /nph-jpeg.cgi?0&1484333436119382 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7ff73151c828>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+2017-01-15 01:57:00,012 Shooting
+2017-01-15 01:57:00,014 Starting new HTTP connection (1): engineeringwebcam.calbaptist.edu
