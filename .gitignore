@@ -1,3 +1,4 @@
 frames/*.jpg
 __pycache__/*
 gifs/*.gif
+log/*.log
