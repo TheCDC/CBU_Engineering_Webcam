@@ -11,7 +11,7 @@ logging.basicConfig(format='%(asctime)s %(message)s',
 def main():
     logging.info("Started")
     # intialize timer to ensure correct time in between shots.
-    last_shot = time.time()
+    last_shot = time.time() - 60
 
     try:
         # wait until the beginning of the next minute
