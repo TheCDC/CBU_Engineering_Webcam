@@ -11,7 +11,7 @@ requests
 
 Command Line Utilities
 ```
-convert # ImageMagick
+convert # imagemagick
 ```
 
 # Usage #
