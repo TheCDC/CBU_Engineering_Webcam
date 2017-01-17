@@ -22,6 +22,7 @@ def main():
             now = time.time()
             # only shoot on the bottom of each minute
             if now >= last_shot + 60:
+                last_shot = now
                 # don't shoot multiple times per second
                 print(time_utils.now())
                 # shoot first
@@ -38,7 +39,6 @@ def main():
                 except Exception as e:
                     logging.warning(e)
                     raise e
-                last_shot = now
             # delay to avoid wasting CPU cycles
             time.sleep(0.01)
     except (EOFError, KeyboardInterrupt) as e:
