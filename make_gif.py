@@ -11,7 +11,7 @@ def main():
         "frames", fname)) for fname in os.listdir("frames/")]
     # print(paths)
     paths.sort()
-    savegif.savegif(paths[::frames_divisor], "gifs/ani.gif", 0.05)
+    savegif.savegif(paths[::frames_divisor], "gifs/ani.gif", 1/10)
 
 if __name__ == '__main__':
     main()

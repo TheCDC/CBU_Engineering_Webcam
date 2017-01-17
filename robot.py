@@ -6,11 +6,11 @@ import make_gif
 import requests
 import logging
 logging.basicConfig(format='%(asctime)s %(message)s',
-                    filename="log/robot.log", level=logging.DEBUG)
+                    filename="log/robot.log", level=logging.INFO)
 
 
 def main():
-    logging.info("Started.")
+    logging.info("Started")
     # intialize simple state machine to handle timing
     state = 0
     while True:
@@ -23,11 +23,18 @@ def main():
                     print(time_utils.now())
                     # shoot first
                     try:
-                        logging.debug("Shooting")
+                        logging.info("Shooting")
                         shoot.shoot()
                     # ask questions later
+
+                    except (KeyboardInterrupt, EOFError) as e:
+                        raise e
                     except requests.exceptions.ConnectionError as e:
-                        logging.info(e)
+                        logging.warning(e)
+                        print(e)
+                    except Exception as e:
+                        logging.warning(e)
+                        raise e
                     state = 1
             else:
                 state = 0
