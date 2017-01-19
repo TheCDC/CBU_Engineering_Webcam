@@ -9,8 +9,8 @@ frames_divisor = 15
 def main():
     paths = [os.path.abspath(os.path.join(
         "frames", fname)) for fname in os.listdir("frames/")]
-    # print(paths)
     paths.sort()
+    # print(paths)
     savegif.savegif(paths[::frames_divisor], "gifs/ani.gif", 1/10)
 
 if __name__ == '__main__':
