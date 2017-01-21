@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Call `convert` to put all captured frames into a gif.
+
+"""
 import savegif
 import os
 import time_utils
